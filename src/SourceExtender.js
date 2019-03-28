@@ -56,7 +56,7 @@ class SourceExtender {
     }
 
     wrap(markup) {
-        return cheerio.load(markup, { xmlMode: true });
+      return cheerio.load(markup,{decodeEntities: false,  xmlMode: true});
     }
 
     getExtenders() {
