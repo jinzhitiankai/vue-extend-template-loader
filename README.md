@@ -1,3 +1,5 @@
+# 继承自Crysknight/vue-extend-template-loader；完善vue 模板继承的问题
+
 # vue-extend-template-loader
 A loader for extending vue sfc templates alongside simple extension
 
